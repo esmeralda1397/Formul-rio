@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <form>
+         <h4>Formulario</h4>
+          <legend width="34px;">Dados Pessoais</legend>
+             <p>Nome:
+                 <input type="text" name="Nome" size="28" maxlength="30"
+                  placeholder="Nome Completo"></p>
+                   <p>E-mail: 
+                    <input type="text" name="email" size="28" maxlength="30" placeholder="Digite seu E- mail"></p>
+                     <p>Masculino:
+                         <input type="radio" name="sexo"> Feminino: 
+                         <input type="radio" name="sexo"></p> <br>
+                          <p>Data de Nascimento:
+                             <input type="date" name="datadenascimento" size="28" maxlength="30" placeholder="Digite sua Data de Nascimento"></p>
+                             
+                            <br>
+                     <legend>Informações da EP</legend>
+                     <p>Escola:
+                     <input type="text" name="logradouro" size="28" maxlength="30" placeholder="Escola que estuda".>
+                       <p>Número de sala:
+                         <input type="text" name="Escola" size="28" maxlength="30" placeholder="Númeroda sala que estuda"></p>
+                          <p>Seu curso
+                             <select> <optgroup label="seu curso"> 
+                            <option value="INFOR">Informatica</option>
+                             <option value="CONTABIL">Contabilidade</option>
+                             <option value="AGRO">Agropecuaria</option>
+                             <option value="ADM">Adiministração</option>
+                             </optgroup>
+                                 </select>
+                                 cor do curso:
+                                 <select> 
+                                     <optgroup label="cor o seu curso">
+                                         <option value="RED">Vermelho</option>
+                                          <option value="GREEN">Verde</option>
+                                          <option value="BLUE">Azul</option>
+                                          <option value="PINK/GOLDEN">Rosa/dourado</option>
+                                         </optgroup>
+                                         </select>
+                                        Série:
+                                  <input type="number" name="idade" min="1" max="9999" maxlength="30"></p>
+                                  <br>
+                                   <input type="submit" value="Enviar">
+                                 </form>
+</body>
+</html>
